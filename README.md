@@ -1,41 +1,24 @@
-# User Management (user-management-fronted)
+# Front User Management
+## El presente software es una interfaz web para mantenimeinto de usuarios
 
-A Quasar Project
+Para esta aplicación se utilizaron las siguientes tecnologías.
+- Vue 3
+- Quasar
+- Axios
+- Javascript
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
+## Instrucciones
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+- Instalara node.js y quasar/cli para poder ejecutar el proyecto.
+https://quasar.dev/start/quasar-cli
+https://nodejs.org/en
+- Clonar el proyecto y en una terminal ejecutar el siguiente comando: npm install
+- Para ejecutar el proyecto ejecutar el comando: quasar dev.
+- Escribir en su navegador la siguiente ruta: http://localhost:9000 el puerto puede variar.
 
+## Tareas faltantes
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
+- Implementación de un login.
+- Probar los flujos correspondientes a un CRUD.
 
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
-
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+Desarrollado por Walter Stanley Guevara Aguilar
